@@ -4,16 +4,13 @@
 
 Make A Planet, c'est une landing page pour un concept de "planètes virtuelles persistantes". L'idée : tu paies 1$, tu obtiens une planète générée procéduralement, et elle évolue en continu, même quand t'es en train de faire autre chose.
 
-Pas de blockchain, pas de NFT, pas de bullshit. Juste un petit monde perso qui vit sa vie et que
-tu peux échanger sur une place de marché.
-
 ## Stack technique
 
 - **Frontend** : HTML/CSS/JS vanille. Pas de framework, pas de build step. Tu ouvres le fichier, ça marche.
 - **3D** : Three.js (r128) pour la planète et les étoiles en arrière-plan.
 - **Textures** : Générées et encodées en Base64 directement dans `main-textures.js` pour éviter les problèmes CORS en local.
 
-## Structure
+## Structure / Squelette
 
 ```
 ├── index.html          # Page principale
